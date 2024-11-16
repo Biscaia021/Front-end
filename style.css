@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#balao {
+    width: 150px;
+    height: 150px;
+    transition: width 0.3s, height 0.3s; /* Anima o balão crescendo */
+}
+
+#bomba {
+    margin-top: 20px;
+    cursor: pointer;
+}
